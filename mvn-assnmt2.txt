@@ -1,0 +1,35 @@
+
+Assignment2:
+
+Parent: my-app
+Child1: service
+Child2: dao
+
+Child2:
+
+package com.demo.dao;
+
+public class EmpDao{
+
+public String save(int empId){
+
+return "Emp saved with id "+empId;
+}
+
+}
+
+Child1:
+
+package com.demo.app;
+
+public class App{
+
+public static void main(String[] args){
+
+	EmpDao dao= new EmpDao();
+	
+	System.out.println(dao.save(123));
+}
+
+
+}
