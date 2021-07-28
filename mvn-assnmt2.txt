@@ -33,3 +33,18 @@ public static void main(String[] args){
 
 
 }
+
+
+
+name of the parent project is "my-app“
+
+mvn archetype:generate -DgroupId=com.demo -DartifactId=my-app -Dpackage=com.demo.app -DinteractiveMode=false
+
+2. edit the parent's POM and update <packaging> as given
+<packaging>pom</packaging>
+
+3. cd to my-app folder and use the following commands to create 2 child modules
+
+mvn archetype:generate -DgroupId=com.demo -DartifactId=service -Dpackage=com.demo.app -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.demo -DartifactId=dao -Dpackage=com.demo.dao -DinteractiveMode=false
