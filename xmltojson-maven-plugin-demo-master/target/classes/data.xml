@@ -1,0 +1,10 @@
+<person>
+    <firstName>Shantanu</firstName>
+    <lastName>Banerjee</lastName>
+    <address>
+        <house-No>401</house-No>
+        <street>Sri Sai Nagar</street>
+        <area>Kanchanbagh</area>
+        <city>Hyderabad</city>
+    </address>
+</person>

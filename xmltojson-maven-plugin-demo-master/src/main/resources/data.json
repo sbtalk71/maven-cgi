@@ -1,0 +1,10 @@
+{"person": {
+    "firstName": "Shantanu",
+    "lastName": "Banerjee",
+    "address": {
+        "area": "Kanchanbagh",
+        "city": "Hyderabad",
+        "house-No": 401,
+        "street": "Sri Sai Nagar"
+    }
+}}
