@@ -1,0 +1,7 @@
+com\demo\maven\groups\SlowTest.class
+com\demo\maven\groups\Person2IT.class
+com\demo\maven\systemproperty\SystemPropertyIT.class
+com\demo\maven\groups\FastTest.class
+com\demo\maven\groups\Person3IT.class
+com\demo\maven\SampleIT.class
+com\demo\maven\groups\Person1IT.class
